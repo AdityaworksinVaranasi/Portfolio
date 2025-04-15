@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Name | Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fafc;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1e3c72, #2a5298);
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #fff;
+      padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      gap: 30px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #1e3c72;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    .project-card {
+      background-color: white;
+      padding: 20px;
+      margin: 20px 0;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+      transition: transform 0.2s;
+    }
+
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+
+    footer {
+      background-color: #1e3c72;
+      color: #ccc;
+      text-align: center;
+      padding: 30px 20px;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 15px;
+      background-color: #2a5298;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s;
+    }
+
+    a.button:hover {
+      background-color: #1e3c72;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header data-aos="fade-down">
+    <h1>Your Name</h1>
+    <p>Web Engineer in Progress 🚀</p>
+  </header>
+
+  <!-- Navigation -->
+  <nav data-aos="fade-in">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- About -->
+  <section id="about" data-aos="fade-up">
+    <h2>About Me</h2>
+    <p>I’m learning to design and build cool things for the web. This portfolio is my playground—and my proof that AI helps, but I run the show.</p>
+    <a class="button" href="#projects">Check My Work</a>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" data-aos="zoom-in-up">
+    <h2>Projects</h2>
+
+    <div class="project-card" data-aos="fade-right">
+      <h3>Project Title 1</h3>
+      <p>A small description of what this project is, what it does, and why it’s cool.</p>
+    </div>
+
+    <div class="project-card" data-aos="fade-left">
+      <h3>Project Title 2</h3>
+      <p>Another amazing thing I made while learning HTML, CSS, and JS.</p>
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-up">
+    <h2>Contact Me</h2>
+    <p>Let's connect! Email me at: <a href="mailto:adityajyotitripathi@gmail.com">adityajyotitripathi@gmail.com</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer data-aos="fade-in">
+    <p>&copy; 2025 Your Name. Made with code, coffee, and curiosity ☕💻</p>
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
