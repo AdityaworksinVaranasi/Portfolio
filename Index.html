@@ -1,0 +1,197 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aditya Tripathi</title>
+
+  <!-- Google Font: Poppins -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+
+    nav {
+      background-color: #ffffff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+
+    .dropbtn {
+      background-color: #ffffff;
+      color: #222;
+      padding: 12px 16px;
+      font-size: 18px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.1);
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      color: #222;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .hero-video {
+      position: relative;
+      width: 100%;
+      height: 300px;
+      overflow: hidden;
+    }
+
+    .hero-video video {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    header {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    header h1 {
+      font-size: 48px;
+      font-weight: 600;
+      margin: 0;
+    }
+
+    section {
+      margin-top: 60px;
+      text-align: center;
+      max-width: 700px;
+      padding: 0 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/en/0/09/Daily_Bugle_Logo.png" alt="Daily Bugle Logo">
+      <span><strong>Daily Bugle</strong></span>
+    </div>
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#camera">Camera</a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero-video">
+    <video autoplay muted loop>
+      <source src="https://cdn.pixabay.com/video/2023/07/10/174335-845646916_large.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <header>
+    <h1>Aditya Tripathi</h1>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      I live in <strong>Varanasi</strong> and work with a satellite news channel.  
+      I cover news for <strong>Assam</strong> while reporting from <strong>Uttar Pradesh</strong>.
+      <br><br>
+      I also work in <strong>Marketing</strong>.
+      <br><br>
+      <a href="about.html">Learn more →</a>
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div>
+      <h3>Blog Platform (Planning)</h3>
+      <p>A minimalist blog built for sharing code, thoughts, and creative ideas. Simple, clean, and built from scratch. Coming soon!</p>
+    </div>
+  </section>
+
+  <section id="blogs">
+    <h2>Blogs</h2>
+    <p>Blog section under construction. Stay tuned!</p>
+  </section>
+
+  <section id="camera">
+    <h2>Camera</h2>
+    <p>Photography section coming soon with shots and stories.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:adityajyotitripathi@gmail.com">adityajyotitripathi@gmail.com</a></p>
+    <p>Phone: <a href="tel:+916393570883">+91 6393570883</a></p>
+    <p>Instagram: <a href="https://instagram.com/sherbabhan" target="_blank">@sherbabhan</a></p>
+  </section>
+
+</body>
+</html>
